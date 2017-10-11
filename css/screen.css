@@ -236,11 +236,13 @@ input {
 
 #input-submit {
   width: 100%;
+  border-radius: .7em;
   margin: auto;
 }
 
 input[type="email"] {
   padding-bottom: 1.2em;
+  border-radius: .7em;
 }
 
 input[type="checkbox"] {
@@ -260,6 +262,7 @@ input[type="checkbox"] + label {
 input[type="submit"] {
   font-family: "Garamond",serif;
   font-size: 1.5em;
+  border-radius: .7em;
   background-color: #c0c0c0;
 }
 /* ===== MODULAR STYLES ===== */
