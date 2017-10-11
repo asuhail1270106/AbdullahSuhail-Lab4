@@ -215,6 +215,13 @@ label {
 
 
 /* ===== MODULAR STYLES ===== */
+form li {
+  padding-bottom: 1.2em;
+}
 
+#age-verification + label {
+  display: block;
+  padding-left: 1.8em;
+}
 /* ===== STATE STYLES ======= */
 
