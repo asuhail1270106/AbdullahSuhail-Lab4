@@ -191,6 +191,12 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
+@media screen and (min-width: 480px) {
+  html, body {
+    min-height: 100%
+  }
+}
+
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -203,6 +209,8 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+
+
 
 /* ===== MODULAR STYLES ===== */
 
