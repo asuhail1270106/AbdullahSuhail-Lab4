@@ -211,9 +211,56 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+h1,p {
+  padding-bottom: .9em;
+}
 
+h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
 
+input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 78px;
+  padding: 26px;
+  border: 0;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-color: #808080;
+}
 
+#input-submit {
+  width: 100%;
+  margin: auto;
+}
+
+input[type="email"] {
+  padding-bottom: 1.2em;
+}
+
+input[type="checkbox"] {
+  height: 1em;
+  width: 1em;
+  float: left;
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+input[type="submit"] {
+  font-family: "Garamond",serif;
+  font-size: 1.5em;
+  background-color: #c0c0c0;
+}
 /* ===== MODULAR STYLES ===== */
 form li {
   padding-bottom: 1.2em;
