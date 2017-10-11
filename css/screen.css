@@ -230,6 +230,7 @@ input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  border-radius: .7em;
   background-color: #808080;
 }
 
